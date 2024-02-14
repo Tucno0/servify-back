@@ -1,0 +1,10 @@
+node_modules/
+keys/
+.env
+
+# build files
+/dist
+/coverage
+
+# bases de datos
+/postgres

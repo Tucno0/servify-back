@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import { AuthService } from "../services/auth.service";
-import { CustomError, LoginUserDto, RegisterUserDto } from "../../domain";
+import { CustomError, LoginUserDto, RegisterUserDto, UserEntity } from "../../domain";
+import { EmailUserDto } from "../../domain/dtos/auth/email-user.dto";
 
 export class AuthController {
   // Inyeccion de Dependencias (DI)
@@ -51,4 +52,48 @@ export class AuthController {
       .catch( error => this.handleError(error, res) );
   }
 
+  public isEmailAvailable = (req: Request, res: Response) => {
+    // Se crea una instancia del DTO para validar los datos recibidos
+    const [error, isEmailAvailableDto] = EmailUserDto.create(req.body);
+
+    // Se verifica si hay algún error
+    if (error) return res.status(400).json({ error });
+
+    return this.authService.isEmailAvailable(isEmailAvailableDto!)
+      .then( isAvailable => res.json( isAvailable ))
+      .catch( error => this.handleError(error, res));
+  }
+
+  public recoveryPassword = (req: Request, res: Response) => {
+    // Se crea una instancia del DTO para validar los datos recibidos
+    const [error, emailDto] = EmailUserDto.create(req.body);
+
+    // Se verifica si hay algún error
+    if (error) return res.status(400).json({ error });
+
+    return this.authService.recoveryPassword(emailDto!)
+      .then( (token) => res.json({ token }) )
+      .catch( error => this.handleError(error, res));
+  }
+
+  public changePassword = (req: Request, res: Response) => {
+    const { token, newPassword } = req.body;
+
+    if (!token) return res.status(400).json({ error: 'Missing token' });
+    if (!newPassword) return res.status(400).json({ error: 'Missing password' });
+    if (newPassword.length < 6) return res.status(400).json({ error: 'Password must be at least 6 characters' });
+
+    return this.authService.changePassword(token, newPassword)
+      .then( message => res.json( message ))
+      .catch( error => this.handleError(error, res));
+  }
+
+  public refreshToken = (req: Request, res: Response) => {
+
+    const user: UserEntity = req.body.user;
+
+    return this.authService.refreshToken(user)
+      .then( resp => res.json( resp ))
+      .catch( error => this.handleError(error, res));
+  }
 }

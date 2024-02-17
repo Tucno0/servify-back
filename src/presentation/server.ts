@@ -1,6 +1,7 @@
 import express, { Router } from 'express';
 import path from 'path';
 import compression from 'compression';
+import cors from 'cors';
 
 interface Options {
   port: number;
@@ -34,6 +35,9 @@ export class Server {
     // Esto es útil para reducir el tamaño de las respuestas y mejorar la velocidad de carga de las páginas web.
     // https://www.npmjs.com/package/compression
     this.app.use(compression())
+
+    //* cors
+    this.app.use(cors());
 
     //* Public Folder
     this.app.use( express.static( this.publicPath ) );

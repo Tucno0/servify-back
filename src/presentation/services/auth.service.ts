@@ -91,7 +91,8 @@ export class AuthService {
 
     // Se crea el link de confirmación de cuenta con el token generado
     // !se crea una dependencia oculta con el archivo .env
-    const link = `${envs.WEBSERVICE_URL}/auth/validate-email/${token}`;
+    const link = `${envs.WEBSERVICE_URL}/auth/confirm-email?token=${token}`;
+    // const link = `http://localhost:3000/api/auth/validate-email/${token}`;
 
     // Se crea el html del correo electrónico con el link de confirmación de cuenta
     const html = `
@@ -215,7 +216,7 @@ export class AuthService {
 
     // Se crea el link de recuperación de contraseña con el token generado
     // !se crea una dependencia oculta con el archivo .env
-    const link = `${envs.WEBSERVICE_URL}/recovery?token=${token}`;
+    const link = `${envs.WEBSERVICE_URL}/auth/change-password?token=${token}`;
 
     // Se crea el html del correo electrónico con el link de recuperación de contraseña
     const html = `

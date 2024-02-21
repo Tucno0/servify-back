@@ -46,7 +46,7 @@ export class EmailService {
         attachments, // Archivos adjuntos
       });
 
-      console.log(sentInformation);
+      // console.log(sentInformation);
 
       return true;
       

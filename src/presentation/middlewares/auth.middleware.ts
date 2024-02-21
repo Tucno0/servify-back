@@ -22,7 +22,7 @@ export class AuthMiddleware {
     try {
       // Se valida el token y se obtiene el payload
       const payload = await JwtAdapter.validateToken<{id: string}>(token);
-      console.log({payload});
+      // console.log({payload});
 
       // Se comprueba si el payload es null
       if (!payload) return res.status(401).json({ error: 'Invalid token' });

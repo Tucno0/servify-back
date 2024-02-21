@@ -290,7 +290,7 @@ export class AuthService {
 
     // Se obtiene el email del payload del token y se parsea a string para poderlo usar
     const { email } = payload as { email: string };
-    console.log(email);
+    // console.log(email);
     // Si no se pudo obtener el email se retorna un error 400
     if (!email) throw CustomError.internalServer('Email not found in token');
 

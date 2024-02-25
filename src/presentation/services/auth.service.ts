@@ -55,7 +55,7 @@ export class AuthService {
       const user = await prisma.user.create({
         data: {
           name: registerUserDto.name,
-          lastName: registerUserDto.lastName,
+          last_name: registerUserDto.lastName,
           email: registerUserDto.email,
           password: passwordEncripted,
         },
@@ -180,7 +180,7 @@ export class AuthService {
     // Se guarda en la base de datos que el email del usuario ya está validado
     await prisma.user.update({
       where: { email },
-      data: { emailValidated: true },
+      data: { email_validated: true },
     });
 
     return true;

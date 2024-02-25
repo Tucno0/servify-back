@@ -28,13 +28,13 @@ export class AuthMiddleware {
       if (!payload) return res.status(401).json({ error: 'Invalid token' });
 
       // Se comprueba si el id del usuario existe en la base de datos de postgres
-      const user = await prisma.user.findUnique({ where: { id: Number(payload.id) } });
+      const user = await prisma.user.findUnique({ where: { id: payload.id } });
 
       // Se comprueba si el usuario existe
       if (!user) return res.status(401).json({ error: 'Invalid token - user does not exist' });
 
       // Validar si el usuario esta activo 
-      if (!user.isActive) return res.status(401).json({ error: 'Invalid token - user is not active' });
+      if (!user.is_active) return res.status(401).json({ error: 'Invalid token - user is not active' });
 
       // **** Se agrega el usuario a la petición (req) para que pueda ser utilizado en los controladores que lo necesiten, primero se convierte el objeto a un UserEntity y luego se asigna a la propiedad user de la petición
       req.body.user = UserEntity.fromObject(user);

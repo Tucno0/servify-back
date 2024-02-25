@@ -1,17 +1,8 @@
-/*
-  Warnings:
-
-  - You are about to drop the `User` table. If the table is not empty, all the data it contains will be lost.
-
-*/
 -- CreateEnum
 CREATE TYPE "order_status" AS ENUM ('process', 'complete');
 
 -- CreateEnum
 CREATE TYPE "role" AS ENUM ('client', 'provider');
-
--- DropTable
-DROP TABLE "User";
 
 -- CreateTable
 CREATE TABLE "availability" (
@@ -64,8 +55,8 @@ CREATE TABLE "order" (
     "end_date" TIMESTAMP(6) NOT NULL,
     "price" DECIMAL,
     "status" "order_status" NOT NULL,
-    "created_at" TIMESTAMP(6) DEFAULT '2024-02-25 13:46:47.817088'::timestamp without time zone,
-    "updated_at" TIMESTAMP(6),
+    "created_at" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" TIMESTAMP(3),
 
     CONSTRAINT "order_pkey" PRIMARY KEY ("id")
 );
@@ -88,8 +79,8 @@ CREATE TABLE "review" (
     "order_id" UUID,
     "rating" INTEGER NOT NULL,
     "comment" VARCHAR NOT NULL,
-    "created_at" TIMESTAMP(6) DEFAULT '2024-02-25 13:46:47.830758'::timestamp without time zone,
-    "updated_at" TIMESTAMP(6),
+    "created_at" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" TIMESTAMP(3),
 
     CONSTRAINT "review_pkey" PRIMARY KEY ("id")
 );
@@ -128,15 +119,15 @@ CREATE TABLE "service_provider" (
 CREATE TABLE "user" (
     "id" UUID NOT NULL DEFAULT gen_random_uuid(),
     "name" VARCHAR NOT NULL,
-    "lastname" VARCHAR NOT NULL,
+    "last_name" VARCHAR NOT NULL,
     "email" VARCHAR NOT NULL,
     "password" VARCHAR NOT NULL,
     "image" VARCHAR,
     "email_validated" BOOLEAN DEFAULT false,
     "is_active" BOOLEAN DEFAULT true,
     "role" "role" DEFAULT 'client',
-    "created_at" TIMESTAMP(6) DEFAULT '2024-02-25 13:46:47.683713'::timestamp without time zone,
-    "updated_at" TIMESTAMP(6),
+    "created_at" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" TIMESTAMP(3),
 
     CONSTRAINT "user_pkey" PRIMARY KEY ("id")
 );

@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -10,15 +7,131 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id             Int      @id @default(autoincrement())
-  name           String
-  lastName       String   
-  email          String   @unique
-  password       String   @unique
-  image          String?   
-  emailValidated Boolean  @default(false)
-  isActive       Boolean  @default(true)
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+model availability {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  provider_id String?   @db.Uuid
+  busy_at     DateTime  @db.Timestamp(6)
+  provider    provider? @relation(fields: [provider_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model category {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name        String    @db.VarChar
+  description String?
+  service     service[]
+}
+
+model client {
+  id       String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id  String? @db.Uuid
+  phone    String? @db.VarChar
+  address  String? @unique(map: "client_address_idx") @db.VarChar
+  zip_code String? @db.VarChar
+  user     user?   @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  order    order[]
+}
+
+model experience {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  provider_id String?   @db.Uuid
+  title       String    @db.VarChar
+  plaace      String    @db.VarChar
+  description String?
+  start_time  DateTime? @db.Timestamp(6)
+  end_time    DateTime? @db.Timestamp(6)
+  provider    provider? @relation(fields: [provider_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@index([title])
+}
+
+model order {
+  id         String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  client_id  String?      @db.Uuid
+  service_id String?      @db.Uuid
+  start_date DateTime     @db.Timestamp(6)
+  end_date   DateTime     @db.Timestamp(6)
+  price      Decimal?     @db.Decimal
+  status     order_status
+  created_at DateTime?    @default(now())
+  updated_at DateTime?    @db.Timestamp(6)
+  client     client?      @relation(fields: [client_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  service    service?     @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  review     review[]
+}
+
+model provider {
+  id               String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id          String?            @db.Uuid
+  phone            String             @db.VarChar
+  description      String?
+  rating           Int?
+  content          String?
+  availability     availability[]
+  experience       experience[]
+  user             user?              @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  service_provider service_provider[]
+}
+
+model review {
+  id         String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  order_id   String?   @db.Uuid
+  rating     Int
+  comment    String    @db.VarChar
+  created_at DateTime? @default(now())
+  updated_at DateTime? @db.Timestamp(6)
+  order      order?    @relation(fields: [order_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model service {
+  id                  String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  category_service_id String?            @db.Uuid
+  name                String             @db.VarChar
+  description         String
+  content             String?
+  price_by_hour       Decimal            @db.Decimal
+  order               order[]
+  category            category?          @relation(fields: [category_service_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  service_image       service_image[]
+  service_provider    service_provider[]
+}
+
+model service_image {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  service_id String?  @db.Uuid
+  url        String   @unique(map: "service_image_url_idx") @db.VarChar
+  service    service? @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model service_provider {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  service_id  String?   @db.Uuid
+  provider_id String?   @db.Uuid
+  provider    provider? @relation(fields: [provider_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  service     service?  @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model user {
+  id              String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name            String     @db.VarChar
+  lastname        String     @db.VarChar
+  email           String     @unique @db.VarChar
+  password        String     @db.VarChar
+  image           String?    @db.VarChar
+  email_validated Boolean?   @default(false)
+  is_active       Boolean?   @default(true)
+  role            role?      @default(client)
+  created_at      DateTime?  @default(now())
+  updated_at      DateTime?  @db.Timestamp(6)
+  client          client[]
+  provider        provider[]
+}
+
+enum order_status {
+  process
+  complete
+}
+
+enum role {
+  client
+  provider
 }

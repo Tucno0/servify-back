@@ -38,7 +38,7 @@ CREATE TABLE "experience" (
     "id" UUID NOT NULL DEFAULT gen_random_uuid(),
     "provider_id" UUID,
     "title" VARCHAR NOT NULL,
-    "plaace" VARCHAR NOT NULL,
+    "place" VARCHAR NOT NULL,
     "description" TEXT,
     "start_time" TIMESTAMP(6),
     "end_time" TIMESTAMP(6),
@@ -67,7 +67,7 @@ CREATE TABLE "provider" (
     "user_id" UUID,
     "phone" VARCHAR NOT NULL,
     "description" TEXT,
-    "rating" INTEGER,
+    "rating" DECIMAL NOT NULL,
     "content" TEXT,
 
     CONSTRAINT "provider_pkey" PRIMARY KEY ("id")
@@ -77,7 +77,7 @@ CREATE TABLE "provider" (
 CREATE TABLE "review" (
     "id" UUID NOT NULL DEFAULT gen_random_uuid(),
     "order_id" UUID,
-    "rating" INTEGER NOT NULL,
+    "rating" DECIMAL NOT NULL,
     "comment" VARCHAR NOT NULL,
     "created_at" TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,
     "updated_at" TIMESTAMP(3),

@@ -7,11 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsnd --respawn src/app.ts",
     "build": "rimraf ./dist && tsc",
-    "start": "npm run build && node dist/app.js"
+    "start": "npm run build && node dist/app.js",
+    "seed": "prisma db seed --preview-feature"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
     "@types/compression": "^1.7.5",

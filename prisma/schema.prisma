@@ -35,7 +35,7 @@ model experience {
   id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   provider_id String?   @db.Uuid
   title       String    @db.VarChar
-  plaace      String    @db.VarChar
+  place       String    @db.VarChar
   description String?
   start_time  DateTime? @db.Timestamp(6)
   end_time    DateTime? @db.Timestamp(6)
@@ -64,7 +64,7 @@ model provider {
   user_id          String?            @db.Uuid
   phone            String             @db.VarChar
   description      String?
-  rating           Int?
+  rating           Decimal            @db.Decimal
   content          String?
   availability     availability[]
   experience       experience[]
@@ -75,7 +75,7 @@ model provider {
 model review {
   id         String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   order_id   String?   @db.Uuid
-  rating     Int
+  rating     Decimal   @db.Decimal
   comment    String    @db.VarChar
   created_at DateTime? @default(now())
   updated_at DateTime? @updatedAt()

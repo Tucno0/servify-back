@@ -734,9 +734,9 @@ export const Montajeeinstalacion = [
   {
     name: 'Colgar cortinas e instalar persianas',
     description: "Utilice TaskRabbit para instalar sus cortinas, barras de cortina, persianas y cortinas.",
+    content: 'Contrata a pintores de casas con experiencia. No es que necesites contratar a una empresa de pintura industrial para que te ayude a pintar tu casa, pero sí debes asegurarte de contratar a alguien que sepa qué extremo de la brocha sujetar para que cada capa sea lo más uniforme y suave posible.',
     category: {
       name: "Montaje e instalación",
-      content: 'Contrata a pintores de casas con experiencia. No es que necesites contratar a una empresa de pintura industrial para que te ayude a pintar tu casa, pero sí debes asegurarte de contratar a alguien que sepa qué extremo de la brocha sujetar para que cada capa sea lo más uniforme y suave posible.',
     },
     price: 69.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1615579014/r6sphg3gsytc1le4cera.jpg",
@@ -1616,9 +1616,9 @@ export const Preparacionparabebes = [
   {
     name: 'Compras',
     description: "Podemos comprar lo que necesites.",
+    content: 'Contrata a pintores de casas con experiencia. No es que necesites contratar a una empresa de pintura industrial para que te ayude a pintar tu casa, pero sí debes asegurarte de contratar a alguien que sepa qué extremo de la brocha sujetar para que cada capa sea lo más uniforme y suave posible.',
     category: {
       name: 'Preparación para bebés',
-      content: 'Contrata a pintores de casas con experiencia. No es que necesites contratar a una empresa de pintura industrial para que te ayude a pintar tu casa, pero sí debes asegurarte de contratar a alguien que sepa qué extremo de la brocha sujetar para que cada capa sea lo más uniforme y suave posible.',
     },
     price: 69.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428351121/nkbccweuy19ljhmuonai.jpg",

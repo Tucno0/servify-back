@@ -9,6 +9,9 @@ export * from './dtos/shared/pagination.dto';
 
 //* Error
 export * from './errors/custom.error';
+export * from './errors/handle-error';
 
 //* Entities
 export * from './entities/user.entity';
+export * from './entities/category.entity';
+export * from './entities/service.entity';

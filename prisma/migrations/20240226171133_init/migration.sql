@@ -88,7 +88,7 @@ CREATE TABLE "review" (
 -- CreateTable
 CREATE TABLE "service" (
     "id" UUID NOT NULL DEFAULT gen_random_uuid(),
-    "category_service_id" UUID,
+    "category_id" UUID,
     "name" VARCHAR NOT NULL,
     "description" TEXT NOT NULL,
     "content" TEXT,
@@ -166,7 +166,7 @@ ALTER TABLE "provider" ADD CONSTRAINT "provider_user_id_fkey" FOREIGN KEY ("user
 ALTER TABLE "review" ADD CONSTRAINT "review_order_id_fkey" FOREIGN KEY ("order_id") REFERENCES "order"("id") ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 -- AddForeignKey
-ALTER TABLE "service" ADD CONSTRAINT "service_category_service_id_fkey" FOREIGN KEY ("category_service_id") REFERENCES "category"("id") ON DELETE NO ACTION ON UPDATE NO ACTION;
+ALTER TABLE "service" ADD CONSTRAINT "service_category_id_fkey" FOREIGN KEY ("category_id") REFERENCES "category"("id") ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 -- AddForeignKey
 ALTER TABLE "service_image" ADD CONSTRAINT "service_image_service_id_fkey" FOREIGN KEY ("service_id") REFERENCES "service"("id") ON DELETE NO ACTION ON UPDATE NO ACTION;

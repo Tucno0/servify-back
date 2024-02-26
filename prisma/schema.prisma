@@ -84,13 +84,13 @@ model review {
 
 model service {
   id                  String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  category_service_id String?            @db.Uuid
+  category_id         String?            @db.Uuid
   name                String             @db.VarChar
   description         String
   content             String?
   price_by_hour       Decimal            @db.Decimal
   order               order[]
-  category            category?          @relation(fields: [category_service_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  category            category?          @relation(fields: [category_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
   service_image       service_image[]
   service_provider    service_provider[]
 }

@@ -192,8 +192,8 @@ async function createService (category: any, services: any) {
         name: service.name,
         description: service.description,
         content: service.content,
-        category_service_id: newCategory.id,
         price_by_hour: service.price,
+        category_id: newCategory.id,
       }
     })
   })

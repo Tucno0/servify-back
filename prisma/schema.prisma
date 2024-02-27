@@ -18,7 +18,7 @@ model category {
   id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   name        String    @db.VarChar
   description String?
-  service     service[]
+  services    service[]
 }
 
 model client {
@@ -28,7 +28,7 @@ model client {
   address  String? @unique(map: "client_address_idx") @db.VarChar
   zip_code String? @db.VarChar
   user     user?   @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  order    order[]
+  orders   order[]
 }
 
 model experience {
@@ -56,20 +56,20 @@ model order {
   updated_at DateTime?    @updatedAt()
   client     client?      @relation(fields: [client_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
   service    service?     @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  review     review[]
+  reviews    review[]
 }
 
 model provider {
-  id               String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  user_id          String?            @db.Uuid
-  phone            String             @db.VarChar
-  description      String?
-  rating           Decimal            @db.Decimal
-  content          String?
-  availability     availability[]
-  experience       experience[]
-  user             user?              @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  service_provider service_provider[]
+  id                String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id           String?            @db.Uuid
+  phone             String             @db.VarChar
+  description       String?
+  rating            Decimal            @db.Decimal
+  content           String?
+  availabilities    availability[]
+  experiences       experience[]
+  users             user?              @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  service_providers service_provider[]
 }
 
 model review {
@@ -89,16 +89,16 @@ model service {
   description         String
   content             String?
   price_by_hour       Decimal            @db.Decimal
-  order               order[]
+  orders              order[]
   category            category?          @relation(fields: [category_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
-  service_image       service_image[]
-  service_provider    service_provider[]
+  service_images      service_image[]
+  service_providers   service_provider[]
 }
 
 model service_image {
   id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   service_id String?  @db.Uuid
-  url        String   @unique(map: "service_image_url_idx") @db.VarChar
+  url        String   @db.VarChar
   service    service? @relation(fields: [service_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
 }
 
@@ -122,8 +122,8 @@ model user {
   role            role?      @default(client)
   created_at      DateTime?  @default(now())
   updated_at      DateTime?  @updatedAt()
-  client          client[]
-  provider        provider[]
+  clients         client[]
+  providers       provider[]
 }
 
 enum order_status {

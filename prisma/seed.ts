@@ -38,7 +38,7 @@ async function main() {
         password: bcryptAdapter.hash(user.password),
         image: user.image,
         email_validated: user.email_validated,
-        client: {
+        clients: {
           create: {
             phone: clientsSeed[i].phone,
             address: clientsSeed[i].address,
@@ -59,7 +59,7 @@ async function main() {
         image: user.image,
         email_validated: user.email_validated,
         role: user.role as role,
-        provider: {
+        providers: {
           create: {
             phone: providers[i].phone,
             description: providers[i].description,
@@ -68,11 +68,11 @@ async function main() {
         },
       },
       include: {
-        provider: true
+        providers: true
       }
     })
 
-    return newUser.provider[0].id;
+    return newUser.providers[0].id;
   })
 
   idProviders = await Promise.all(idProviders);
@@ -167,6 +167,7 @@ async function main() {
 
   console.log('Seed completed 🌱🌱🌱')
 }
+
 main()
   .then(async () => {
     await prisma.$disconnect()
@@ -194,6 +195,11 @@ async function createService (category: any, services: any) {
         content: service.content,
         price_by_hour: service.price,
         category_id: newCategory.id,
+        service_images: {
+          create: {
+            url: service.image
+          }
+        }
       }
     })
   })

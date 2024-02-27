@@ -139,9 +139,6 @@ CREATE UNIQUE INDEX "client_address_idx" ON "client"("address");
 CREATE INDEX "experience_title_idx" ON "experience"("title");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "service_image_url_idx" ON "service_image"("url");
-
--- CreateIndex
 CREATE UNIQUE INDEX "user_email_key" ON "user"("email");
 
 -- AddForeignKey

@@ -68,7 +68,7 @@ model provider {
   content           String?
   availabilities    availability[]
   experiences       experience[]
-  users             user?              @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user              user?              @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
   service_providers service_provider[]
 }
 

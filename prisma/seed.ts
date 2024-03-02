@@ -18,12 +18,18 @@ const prisma = new PrismaClient()
 async function main() {
   await prisma.$connect();
 
+  // Primero elimina los registros de las tablas que hacen referencia a `service`
   await prisma.client.deleteMany();
   await prisma.experience.deleteMany();
+  await prisma.service_provider.deleteMany();
+  await prisma.service_image.deleteMany();
+
+  // Luego elimina los registros de `service`
+  await prisma.service.deleteMany();
+
+  // Finalmente, elimina los registros de las tablas restantes
   await prisma.provider.deleteMany();
   await prisma.user.deleteMany();
-
-  await prisma.service.deleteMany();
   await prisma.category.deleteMany();
 
   let idProviders = [];
@@ -75,69 +81,69 @@ async function main() {
     return newUser.providers[0].id;
   })
 
-  idProviders = await Promise.all(idProviders);
+  let idProviders2: string[] = await Promise.all(idProviders);
 
   //* Services
   categories.forEach(async (category) => {
     switch (category.name){
       case 'Tareas destacadas':
-        createService(category, tareasDestacadas)
+        createService(category, tareasDestacadas, idProviders2)
         break;
 
       case 'Encargado de mantenimiento':
-        createService(category, encargadoMantenimiento)
+        createService(category, encargadoMantenimiento, idProviders2)
         break;
 
       case 'Servicios de mudanza':
-        createService(category, serviciosDeMudanza)
+        createService(category, serviciosDeMudanza, idProviders2)
         break;
 
       case 'Montaje de muebles':
-        createService(category, Montajedemuebles)
+        createService(category, Montajedemuebles, idProviders2)
         break;
       
       case 'Montaje e instalación':
-        createService(category, Montajeeinstalacion)
+        createService(category, Montajeeinstalacion, idProviders2)
         break;
       
       case 'Limpieza':
-        createService(category, Limpieza)
+        createService(category, Limpieza, idProviders2)
         break;
 
       case 'Compras + Entrega a domicilio':
-        createService(category, ComprasEntrega)
+        createService(category, ComprasEntrega, idProviders2)
         break;
 
       case 'Servicios de Servify':
-        createService(category, ServiciosdeServify)
+        createService(category, ServiciosdeServify, idProviders2)
         break;
       
       case 'Servicios de jardinería':
-        createService(category, Serviciosdejardineria)
+        createService(category, Serviciosdejardineria, idProviders2)
         break;
 
       case 'Vacaciones':
-        createService(category, Vacaciones)
+        createService(category, Vacaciones, idProviders2)
         break;
 
       case 'Asistente personal':
-        createService(category, Asistentepersonal)
+        createService(category, Asistentepersonal, idProviders2)
         break;
       
       case 'Preparación para bebés':
-        createService(category, Preparacionparabebes)
+        createService(category, Preparacionparabebes, idProviders2)
         break;
 
       case 'Tareas virtuales y en línea':
-        createService(category, Tareasvirtualesyenlinea)
+        createService(category, Tareasvirtualesyenlinea, idProviders2)
         break;
       
       case 'Servicios de oficina':
-        createService(category, Serviciosoficina)
+        createService(category, Serviciosoficina, idProviders2)
         break;
 
       case 'Tareas sin contacto':
-        createService(category, Tareassincontacto)
+        createService(category, Tareassincontacto, idProviders2)
         break;
 
       default:
@@ -146,7 +152,7 @@ async function main() {
   })
 
   //* Experiences
-  idProviders.forEach(async (id, i) => {
+  idProviders2.forEach(async (id, i) => {
     const index = i * 4;
 
     for (let j = index; j < index + 4; j++) {
@@ -178,7 +184,7 @@ main()
     process.exit(1)
   })
 
-async function createService (category: any, services: any) {
+async function createService (category: any, services: any, idProviders: any[] = []) {
   const newCategory = await prisma.category.create({
     data: {
       name: category.name,
@@ -198,6 +204,11 @@ async function createService (category: any, services: any) {
         service_images: {
           create: {
             url: service.image
+          }
+        },
+        service_providers: {
+          create: {
+            provider_id: idProviders[Math.floor(Math.random() * idProviders.length)]
           }
         }
       }

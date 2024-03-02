@@ -1,8 +1,6 @@
 import { UuidAdapter } from "../../config";
 import { prisma } from "../../data/postgres";
-import { CustomError } from "../../domain";
-import { ServiceEntity } from "../../domain/entities/service.entity";
-
+import { CustomError, ServiceEntity } from "../../domain";
 export class ServiceService {
 
   public getAllServices = async () => {

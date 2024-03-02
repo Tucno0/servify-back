@@ -22,7 +22,7 @@ export class AuthService {
 
     // Si la contraseña es incorrecta se retorna un bad request
     if (!isCorrectPassword) throw CustomError.badRequest('Password is incorrect');
-
+    console.log(user);
     // Transformar el objeto de tipo UserModel a UserEntity para retornarlo
     const { password, ...userEntity } = UserEntity.fromObject(user);
 

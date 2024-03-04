@@ -3,6 +3,8 @@ import { AuthRoutes } from "./auth/routes";
 import { CategoryRoutes } from "./category/routes";
 import { ServiceRoutes } from "./service/routes";
 import { ProviderRoutes } from "./provider/routes";
+import { PaymentRoutes } from './payment/routes';
+import { ClientRoutes } from "./client/routes";
 
 export class AppRoutes {
   static get routes() {
@@ -19,6 +21,12 @@ export class AppRoutes {
 
     //* Ruta de proveedores
     router.use('/api/providers', ProviderRoutes.routes)
+
+    //* Ruta de clientes
+    router.use('/api/clients', ClientRoutes.routes)
+
+    //* Ruta de pagos
+    router.use('/api/payment', PaymentRoutes.routes)
 
     return router;
   }

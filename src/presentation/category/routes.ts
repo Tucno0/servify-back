@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { CategoryController } from "./contoller";
+import { CategoryController } from "./controller";
 import { CategoryService } from '../services/categories.service';
 
 export class CategoryRoutes {

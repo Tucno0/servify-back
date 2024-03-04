@@ -25,14 +25,20 @@ export class CategoryService {
   }
 
   public createCategory = async (category: any) => {
-    return {};
+    return {
+      msg: 'createCategory'
+    };
   }
 
   public updateCategory = async (id: string, category: any) => {
-    return {};
+    return {
+      msg: 'updateCategory'
+    };
   }
 
   public deleteCategory = async (id: string) => {
-    return {};
+    return {
+      msg: 'deleteCategory'
+    };
   }
 }

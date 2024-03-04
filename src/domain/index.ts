@@ -7,6 +7,9 @@ export * from './dtos/auth/email-user.dto';
 //? Shared
 export * from './dtos/shared/pagination.dto';
 
+//? Order
+export * from './dtos/order/create-order.dto';
+
 //* Error
 export * from './errors/custom.error';
 export * from './errors/handle-error';
@@ -16,3 +19,4 @@ export * from './entities/user.entity';
 export * from './entities/category.entity';
 export * from './entities/service.entity';
 export * from './entities/provider.entity';
+export * from './entities/client.entity';

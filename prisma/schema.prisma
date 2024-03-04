@@ -48,10 +48,13 @@ model order {
   id         String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   client_id  String?      @db.Uuid
   service_id String?      @db.Uuid
+  address    String       @db.VarChar
+  city       String       @db.VarChar
+  zip_code   String       @db.VarChar
   start_date DateTime     @db.Timestamp(6)
   end_date   DateTime     @db.Timestamp(6)
   price      Decimal?     @db.Decimal
-  status     order_status
+  status     order_status @default(process)
   created_at DateTime?    @default(now())
   updated_at DateTime?    @updatedAt()
   client     client?      @relation(fields: [client_id], references: [id], onDelete: NoAction, onUpdate: NoAction)

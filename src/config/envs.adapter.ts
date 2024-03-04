@@ -18,7 +18,7 @@ export const envs = {
 
   // * Variables de entorno de paypal
   PAYPAL_CLIENT_ID: get('PAYPAL_CLIENT_ID').required().asString(),
-  PAYPAL_SECRET_KEY: get('PAYPAL_SECRET').required().asString(),
+  PAYPAL_SECRET_KEY: get('PAYPAL_SECRET_KEY').required().asString(),
   PAYPAL_API: get('PAYPAL_API').required().asString(),
 
   WEBSERVICE_URL: get('WEBSERVICE_URL').required().asString(),

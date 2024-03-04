@@ -16,7 +16,7 @@ export class ProviderRoutes {
       //* /api/provider/:id
       router.get('/:id', controller.getProviderById);
 
-      //* /api/provider/:serviceId
+      //* /api/provider/service/:serviceId
       router.get('/service/:serviceId', controller.getProvidersByServiceId);
   
       //* /api/provider

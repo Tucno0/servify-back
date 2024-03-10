@@ -49,11 +49,13 @@ model order {
   client_id  String?      @db.Uuid
   service_id String?      @db.Uuid
   address    String       @db.VarChar
+  location   String       @db.VarChar
   city       String       @db.VarChar
   zip_code   String       @db.VarChar
   start_date DateTime     @db.Timestamp(6)
   end_date   DateTime     @db.Timestamp(6)
-  price      Decimal?     @db.Decimal
+  price      Decimal      @db.Decimal
+  hours      Int          @default(1)
   status     order_status @default(process)
   created_at DateTime?    @default(now())
   updated_at DateTime?    @updatedAt()
@@ -122,7 +124,7 @@ model user {
   image           String?    @db.VarChar
   email_validated Boolean?   @default(false)
   is_active       Boolean?   @default(true)
-  role            role?      @default(client)
+  role            role       @default(client)
   created_at      DateTime?  @default(now())
   updated_at      DateTime?  @updatedAt()
   clients         client[]

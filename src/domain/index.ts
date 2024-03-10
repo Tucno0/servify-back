@@ -20,3 +20,4 @@ export * from './entities/category.entity';
 export * from './entities/service.entity';
 export * from './entities/provider.entity';
 export * from './entities/client.entity';
+export * from './entities/order.entity';

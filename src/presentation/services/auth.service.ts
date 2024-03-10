@@ -1,3 +1,4 @@
+import { role } from '@prisma/client';
 import { JwtAdapter, bcryptAdapter, envs } from '../../config';
 import { prisma } from '../../data/postgres';
 import { CustomError, EmailUserDto, LoginUserDto, RegisterUserDto, UserEntity } from '../../domain';
@@ -51,6 +52,8 @@ export class AuthService {
       // Encryptar la contraseña del usuario con bcrypt
       const passwordEncripted = bcryptAdapter.hash(registerUserDto.password);
 
+      console.log(registerUserDto);
+      
       // Se crea un nuevo usuario en la base de datos de postgres
       const user = await prisma.user.create({
         data: {
@@ -58,8 +61,11 @@ export class AuthService {
           last_name: registerUserDto.lastName,
           email: registerUserDto.email,
           password: passwordEncripted,
+          role: registerUserDto.role === 'provider' ? role.provider : role.client,
         },
       });
+
+      console.log(user);
       
       // Generar JWT para mantener la autenticación del usuario
       const token = await JwtAdapter.generateToken({ id: user.id });

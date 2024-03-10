@@ -5,3 +5,4 @@ export * from './email.service';
 export * from './payment.service';
 export * from './services.service';
 export * from './providers.service';
+export * from './orders.service';

@@ -5,6 +5,7 @@ import { ServiceRoutes } from "./service/routes";
 import { ProviderRoutes } from "./provider/routes";
 import { PaymentRoutes } from './payment/routes';
 import { ClientRoutes } from "./client/routes";
+import { OrderRoutes } from "./order/routes";
 
 export class AppRoutes {
   static get routes() {
@@ -27,6 +28,9 @@ export class AppRoutes {
 
     //* Ruta de pagos
     router.use('/api/payment', PaymentRoutes.routes)
+
+    //* Ruta de ordenes
+    router.use('/api/orders', OrderRoutes.routes)
 
     return router;
   }

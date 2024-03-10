@@ -6,7 +6,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448512/fygl4k4kujomneisofae.jpg",
   },
   {
@@ -16,7 +16,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448636/dwr5db1lu0jzugihonrq.jpg",
   },
   {
@@ -26,7 +26,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1553040641/qsctdbs3smwibuvk93n6.jpg",
   },
   {
@@ -36,7 +36,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595453855/dscyshhel4nuwah847ji.jpg",
   },
   {
@@ -46,7 +46,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448566/e2tzbrtpfnictktixnzl.jpg",
   },
   {
@@ -56,7 +56,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428350682/m4fuputgle72sdev7j8e.jpg",
   },
   {
@@ -66,7 +66,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1456448627/yzdt4pmy5llhrowf6ibq.jpg",
   },
   {
@@ -76,7 +76,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1429633088/lyydp8culnzq06hyr74t.jpg",
   },
   {
@@ -86,7 +86,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448653/obbxeoij8p0a80p1pfjl.jpg",
   },
   {
@@ -96,7 +96,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448794/gweisgd5bxoafin5euse.jpg",
   },
   {
@@ -106,7 +106,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1574201893/e09t31eccesh94hizo6y.jpg",
   },
   {
@@ -116,7 +116,7 @@ export const tareasDestacadas = [
     category: {
       name: 'Tareas destacadas',
     },
-    price: 99.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428351045/wxgm1qq6n0eo7tr4kwud.jpg",
   },
 ]
@@ -129,7 +129,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1553040641/qsctdbs3smwibuvk93n6.jpg",
   },
   {
@@ -139,7 +139,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448512/fygl4k4kujomneisofae.jpg",
   },
   {
@@ -149,7 +149,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448636/dwr5db1lu0jzugihonrq.jpg",
   },
   {
@@ -159,7 +159,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1612822159/wtddc96h0sxwptehfhlh.jpg",
   },
   {
@@ -169,7 +169,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1576025514/t4a9f8gmukbwhevmmpch.jpg",
   },
   {
@@ -179,7 +179,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448566/e2tzbrtpfnictktixnzl.jpg",
   },
   {
@@ -189,7 +189,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1432312714/ytywrtamqit7n3zsaaaf.jpg",
   },
   {
@@ -199,7 +199,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448734/nnbp4eyekiguqplcer5c.jpg",
   },
   {
@@ -209,7 +209,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448742/w4v7afz1dqjtrk5jdj9s.jpg",
   },
   {
@@ -219,7 +219,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1591831617/bnvvxo5vm3awbroqi1ub.jpg",
   },
   {
@@ -229,7 +229,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1591824219/gqdjkhhdfer3sx32t956.jpg",
   },
   {
@@ -239,7 +239,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1615579014/r6sphg3gsytc1le4cera.jpg",
   },
   {
@@ -249,7 +249,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1622232047/phstxhdivb7rylwumzef.jpg",
   },
   {
@@ -259,7 +259,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1588012413/lo31a5eyunq4tmvvnevb.jpg",
   },
   {
@@ -269,7 +269,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448794/gweisgd5bxoafin5euse.jpg",
   },
   {
@@ -279,7 +279,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428351003/uy1w2lbdpm8www8i7teb.jpg",
   },
   {
@@ -289,7 +289,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595509582/bwyeylcp1k7tyn1iqmkj.jpg",
   },
   {
@@ -299,7 +299,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1429631417/wz4eruticl3gpmbhbopo.jpg",
   },
   {
@@ -309,7 +309,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448653/obbxeoij8p0a80p1pfjl.jpg",
   },
   {
@@ -319,7 +319,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1570226372/jy7jwv1zwpgnkz4svmu2.jpg",
   },
   {
@@ -329,7 +329,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595549429/ua4nqfaczm2fut56piuc.jpg",
   },
   {
@@ -339,7 +339,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1607470556/r9kb8ltxumzsesy9lmmt.jpg",
   },
   {
@@ -349,7 +349,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1612825172/zht7ti0rlm3kvqrewawi.jpg",
   },
   {
@@ -359,7 +359,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1612824422/wiqplmudkrx0rhdkkq4a.jpg",
   },
   {
@@ -369,7 +369,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1622647010/srzaiylqctaxqta5yspc.jpg",
   },
   {
@@ -379,7 +379,7 @@ export const encargadoMantenimiento = [
     category: {
       name: 'Encargado de mantenimiento',
     },
-    price: 59.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1622237502/idm8b6umzjz02pvlz4iq.jpg",
   },
 ]
@@ -392,7 +392,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595453855/dscyshhel4nuwah847ji.jpg",
   },
   {
@@ -402,7 +402,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1561074498/c2piqzzpjicgwypwm5nn.jpg",
   },
   {
@@ -412,7 +412,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1561074655/bk2cguwwwo2ztrzqwhtk.jpg",
   },
   {
@@ -422,7 +422,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448566/e2tzbrtpfnictktixnzl.jpg",
   },
   {
@@ -432,7 +432,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1623883625/oqlwat7mg7u4r92jvttq.jpg",
   },
   {
@@ -442,7 +442,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1607541564/na0mz812n9aigjluned9.jpg",
   },
   {
@@ -452,7 +452,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1561072043/cvhxr2kkykdzwjsjxjla.jpg",
   },
   {
@@ -462,7 +462,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1561074207/j6a5zuxhhda6j5bah1a6.jpg",
   },
   {
@@ -472,7 +472,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1622237255/if0golglu7e4nzjefyqh.jpg",
   },
   {
@@ -482,7 +482,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1561073553/sqjqncdjdoealdi1cnsx.jpg",
   },
   {
@@ -492,7 +492,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1550013131/u2ljesck2hyjeizti5mp.jpg",
   },
   {
@@ -502,7 +502,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1608765695/aysurklwqrgsblzv8yg7.jpg",
   },
   {
@@ -512,7 +512,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1622236609/cjjp40f46sfi7ezoozc4.jpg",
   },
   {
@@ -522,7 +522,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1622647832/ghlly2u6feplhmv2wz7i.jpg",
   },
   {
@@ -532,7 +532,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1562180311/bm1xvgvutpefxyoilorz.jpg",
   },
   {
@@ -542,7 +542,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448575/bmtfg9hxdq6kurvwgm7v.jpg",
   },
   {
@@ -552,7 +552,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1561073928/lp9fwulnqbkhn2rmuiig.jpg",
   },
   {
@@ -562,7 +562,7 @@ export const serviciosDeMudanza = [
     category: {
       name: 'Servicios de mudanza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1562181095/bs3jwuzzevcsmz7f9fuu.jpg",
   },
 ]
@@ -575,7 +575,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448512/fygl4k4kujomneisofae.jpg",
   },
   {
@@ -585,7 +585,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1621913393/yhfnwnv4ywgfrelmuwxj.jpg",
   },
   {
@@ -595,7 +595,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595465309/wll7emaxb0vvuktsnpml.jpg",
   },
   {
@@ -605,7 +605,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595465220/ifoacyypuu1pafnjmqkf.jpg",
   },
   {
@@ -615,7 +615,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595463772/xbjdqfsh7wk8fzsvxcwr.jpg",
   },
   {
@@ -625,7 +625,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595549132/yuxk6sc90nycwnkh0ewr.jpg",
   },
   {
@@ -635,7 +635,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595464208/hncwry8dmisdcr0ohxgc.jpg",
   },
   {
@@ -645,7 +645,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595554741/yg2liw6sfatq9ax6aixf.jpg",
   },
   {
@@ -655,7 +655,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595554916/pngd8skczfsmu2vjp6ak.jpg",
   },
   {
@@ -665,7 +665,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1595465421/kcmkm9k4hbeg3rqcthyo.jpg",
   },
   {
@@ -675,7 +675,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448521/zgxyiicd1pjn1gjyfnbd.jpg",
   },
   {
@@ -685,7 +685,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1602277213/frwxh1hjqlkscgoeijbo.jpg",
   },
   {
@@ -695,7 +695,7 @@ export const Montajedemuebles = [
     category: {
       name: 'Montaje de muebles',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1602275964/kdpznoez4kavj08t93uq.jpg",
   },
 ]
@@ -708,7 +708,7 @@ export const Montajeeinstalacion = [
     category: {
       name: "Montaje e instalación",
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448636/dwr5db1lu0jzugihonrq.jpg",
   },
   {
@@ -718,7 +718,7 @@ export const Montajeeinstalacion = [
     category: {
       name: "Montaje e instalación",
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1591831617/bnvvxo5vm3awbroqi1ub.jpg",
   },
   {
@@ -728,7 +728,7 @@ export const Montajeeinstalacion = [
     category: {
       name: "Montaje e instalación",
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1612822159/wtddc96h0sxwptehfhlh.jpg",
   },
   {
@@ -738,7 +738,7 @@ export const Montajeeinstalacion = [
     category: {
       name: "Montaje e instalación",
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1615579014/r6sphg3gsytc1le4cera.jpg",
   },
   {
@@ -748,7 +748,7 @@ export const Montajeeinstalacion = [
     category: {
       name: "Montaje e instalación",
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448653/obbxeoij8p0a80p1pfjl.jpg",
   },
   {
@@ -758,7 +758,7 @@ export const Montajeeinstalacion = [
     category: {
       name: "Montaje e instalación",
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1570226372/jy7jwv1zwpgnkz4svmu2.jpg",
   },
   {
@@ -768,7 +768,7 @@ export const Montajeeinstalacion = [
     category: {
       name: "Montaje e instalación",
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1603939964/xrgof9ly1exhcoxiolje.jpg",
   },
 
@@ -782,7 +782,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1565734996/qbxhtkpsasinn32iq2rm.jpg",
   },
   {
@@ -792,7 +792,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428350781/zir5xlze7az6ebjjlwua.jpg",
   },
   {
@@ -802,7 +802,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1588967277/dmzs7igh2suvoz4p3nbf.jpg",
   },
   {
@@ -812,7 +812,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1565734018/n4vsmjmglguz5q56cs82.jpg",
   },
   {
@@ -822,7 +822,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1565733866/muyrove7knocpa46lvbd.jpg",
   },
   {
@@ -832,7 +832,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1565734842/ohiw6raesvu9gkmb5jxt.jpg",
   },
   {
@@ -842,7 +842,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1621367201/ym9wnmsq4ki9qb6fudpg.jpg",
   },
   {
@@ -852,7 +852,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1624663092/kvswxb5e9tbhuzb99qxn.jpg",
   },
   {
@@ -862,7 +862,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1565734605/kskvnilcw8aeynpqs0tw.jpg",
   },
   {
@@ -872,7 +872,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1588014354/qgaboa5wsb7nn81b8hpn.jpg",
   },
   {
@@ -882,7 +882,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428350936/qslyknb6pfcxjsbgu5uh.jpg",
   },
   {
@@ -892,7 +892,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1588016058/ypfho0jhbj87nbvlfw7n.jpg",
   },
   {
@@ -902,7 +902,7 @@ export const Limpieza = [
     category: {
       name: 'Limpieza',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1456448627/yzdt4pmy5llhrowf6ibq.jpg",
   },
 ]
@@ -915,7 +915,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448401/ejnopzyqmyuhbsefx8kz.jpg",
   },
   {
@@ -925,7 +925,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448751/jdz3qnucbtavshrwoyzh.jpg",
   },
   {
@@ -935,7 +935,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448438/nwojcn8hxzfudorh19wa.jpg",
   },
   {
@@ -945,7 +945,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1605902094/n3cozx2zrxfho3zhsq7z.jpg",
   },
   {
@@ -955,7 +955,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1574201893/e09t31eccesh94hizo6y.jpg",
   },
   {
@@ -965,7 +965,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428350976/uednlojbgsrmjlqmaghh.jpg",
   },
   {
@@ -975,7 +975,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1554490040/bp2azf4g3hcdeb6hkxac.jpg",
   },
   {
@@ -985,7 +985,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1430424230/b2lfkt68avu0zm2i5nkf.jpg",
   },
   {
@@ -995,7 +995,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1586548746/giay3n1vjsgnayzhqrex.jpg",
   },
   {
@@ -1005,7 +1005,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1586549188/abn9scc6hp7zgw1yvwlx.jpg",
   },
   {
@@ -1015,7 +1015,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448448/lf4rhv53nppfxgqdnhud.jpg",
   },
   {
@@ -1025,7 +1025,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448777/sr0menf8ygtb5o0nyalc.jpg",
   },
   {
@@ -1035,7 +1035,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1558484097/q0h0rhljtxtqdfdeqho0.jpg",
   },
   {
@@ -1045,7 +1045,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1586547926/djzojwbldf1zavsxmfc0.jpg",
   },
   {
@@ -1055,7 +1055,7 @@ export const ComprasEntrega = [
     category: {
       name: 'Compras + Entrega a domicilio',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1586554082/h3gh2rilxrrdivodjq2u.jpg",
   },
 ]
@@ -1068,7 +1068,7 @@ export const ServiciosdeServify = [
     category: {
       name: 'Servicios de Servify',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428351003/uy1w2lbdpm8www8i7teb.jpg",
   },
   {
@@ -1078,7 +1078,7 @@ export const ServiciosdeServify = [
     category: {
       name: 'Servicios de Servify',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1608765695/aysurklwqrgsblzv8yg7.jpg",
   },
   {
@@ -1088,7 +1088,7 @@ export const ServiciosdeServify = [
     category: {
       name: 'Servicios de Servify',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1576025514/t4a9f8gmukbwhevmmpch.jpg",
   },
   {
@@ -1098,7 +1098,7 @@ export const ServiciosdeServify = [
     category: {
       name: 'Servicios de Servify',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1610410647/s56u2qyrxy5pfpujc7w0.jpg",
   },
   {
@@ -1108,7 +1108,7 @@ export const ServiciosdeServify = [
     category: {
       name: 'Servicios de Servify',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448512/fygl4k4kujomneisofae.jpg",
   },
   {
@@ -1118,7 +1118,7 @@ export const ServiciosdeServify = [
     category: {
       name: 'Servicios de Servify',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1570226372/jy7jwv1zwpgnkz4svmu2.jpg",
   },
 ]
@@ -1131,7 +1131,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1621465567/okrtxlssmzu56jzlhmqv.jpg",
   },
   {
@@ -1141,7 +1141,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1621469453/hcjblp4ewwf8ntx6nhpt.jpg",
   },
   {
@@ -1151,7 +1151,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1555625897/pqyfshfcjeplxjo5eouy.jpg",
   },
   {
@@ -1161,7 +1161,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1625691609/yqintrumetdk6heb2pty.jpg",
   },
   {
@@ -1171,7 +1171,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1555627480/des73ddl92kvurmskp4o.jpg",
   },
   {
@@ -1181,7 +1181,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1608766543/wcwqskcjpmkzva6luywp.jpg",
   },
   {
@@ -1191,7 +1191,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1621470697/kzz549tozn4e6wlmdi8r.jpg",
   },
   {
@@ -1201,7 +1201,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1646159948/npchnacmkfobqyqpmdms.jpg",
   },
   {
@@ -1211,7 +1211,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1621912175/kgv2om8sz5ildazbqiur.jpg",
   },
   {
@@ -1221,7 +1221,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1621912651/rew3lfz4mhbl55t9o1j5.jpg",
   },
   {
@@ -1231,7 +1231,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1612825172/zht7ti0rlm3kvqrewawi.jpg",
   },
   {
@@ -1241,7 +1241,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1612824422/wiqplmudkrx0rhdkkq4a.jpg",
   },
   {
@@ -1251,7 +1251,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1621913393/yhfnwnv4ywgfrelmuwxj.jpg",
   },
   {
@@ -1261,7 +1261,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1624662816/imhzs3hdghmf391boq0k.jpg",
   },
   {
@@ -1271,7 +1271,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1624662521/rsa1h0hsvvaweesnqeo5.jpg",
   },
   {
@@ -1281,7 +1281,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1624662286/zbbnqggcbampl8rvdp6z.jpg",
   },
   {
@@ -1291,7 +1291,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1624662030/z89pqg9mhluhw5zahgbn.jpg",
   },
   {
@@ -1301,7 +1301,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1646167540/elpsxwbpkxg7xi7b7ij6.jpg",
   },
   {
@@ -1311,7 +1311,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1622648213/v832zinngjetce8759b6.jpg",
   },
   {
@@ -1321,7 +1321,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1634753782/echtivg1mpochxfbtvsb.jpg",
   },
   {
@@ -1331,7 +1331,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1646174450/b6qtcq2meqgqxy5yf1hv.jpg",
   },
   {
@@ -1341,7 +1341,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1646178841/bg5l2aytsbdve37mzd5e.jpg",
   },
   {
@@ -1351,7 +1351,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1646241385/q8lqr2b7a56j8lfd3vza.jpg",
   },
   {
@@ -1361,7 +1361,7 @@ export const Serviciosdejardineria = [
     category: {
       name: 'Servicios de jardinería',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1588016058/ypfho0jhbj87nbvlfw7n.jpg",
   },
 ]
@@ -1374,7 +1374,7 @@ export const Vacaciones = [
     category: {
       name: 'Vacaciones',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1603938319/eqwwwgmztmswytgae24o.jpg",
   },
   {
@@ -1384,7 +1384,7 @@ export const Vacaciones = [
     category: {
       name: 'Vacaciones',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1603939964/xrgof9ly1exhcoxiolje.jpg",
   },
   {
@@ -1394,7 +1394,7 @@ export const Vacaciones = [
     category: {
       name: 'Vacaciones',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1605902094/n3cozx2zrxfho3zhsq7z.jpg",
   },
   {
@@ -1404,7 +1404,7 @@ export const Vacaciones = [
     category: {
       name: 'Vacaciones',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1603939412/vbkascegykobjd2q8hxs.jpg",
   },
   {
@@ -1414,7 +1414,7 @@ export const Vacaciones = [
     category: {
       name: 'Vacaciones',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1603938792/now0xcnwfs3zf0ncbidn.jpg",
   },
   {
@@ -1424,7 +1424,7 @@ export const Vacaciones = [
     category: {
       name: 'Vacaciones',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1481308604/wna3ndhmgwhwtud3xx5n.jpg",
   },
   {
@@ -1434,7 +1434,7 @@ export const Vacaciones = [
     category: {
       name: 'Vacaciones',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1574201893/e09t31eccesh94hizo6y.jpg",
   },
   {
@@ -1444,7 +1444,7 @@ export const Vacaciones = [
     category: {
       name: 'Vacaciones',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1480636001/dbdncdknjpx7ov6txcvq.jpg",
   },
 ]
@@ -1457,7 +1457,7 @@ export const Asistentepersonal = [
     category: {
       name: 'Asistente personal',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1429633088/lyydp8culnzq06hyr74t.jpg",
   },
   {
@@ -1467,7 +1467,7 @@ export const Asistentepersonal = [
     category: {
       name: 'Asistente personal',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448438/nwojcn8hxzfudorh19wa.jpg",
   },
   {
@@ -1477,7 +1477,7 @@ export const Asistentepersonal = [
     category: {
       name: 'Asistente personal',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1574201893/e09t31eccesh94hizo6y.jpg",
   },
   {
@@ -1487,7 +1487,7 @@ export const Asistentepersonal = [
     category: {
       name: 'Asistente personal',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1610410647/s56u2qyrxy5pfpujc7w0.jpg",
   },
   {
@@ -1497,7 +1497,7 @@ export const Asistentepersonal = [
     category: {
       name: 'Asistente personal',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448686/ynoxvh8ibahpnwbz7zyi.jpg",
   },
   {
@@ -1507,7 +1507,7 @@ export const Asistentepersonal = [
     category: {
       name: 'Asistente personal',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428351045/wxgm1qq6n0eo7tr4kwud.jpg",
   },
   {
@@ -1517,7 +1517,7 @@ export const Asistentepersonal = [
     category: {
       name: 'Asistente personal',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1588015409/wwkia0zvfr54ykhlli2u.jpg",
   },
   {
@@ -1527,7 +1527,7 @@ export const Asistentepersonal = [
     category: {
       name: 'Asistente personal',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1586197361/k38g4xbvg6xz2zg7uvgw.jpg",
   },
   {
@@ -1537,7 +1537,7 @@ export const Asistentepersonal = [
     category: {
       name: 'Asistente personal',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1429630872/lcicxq8fomhrcywblbaf.jpg",
   },
 ]
@@ -1550,7 +1550,7 @@ export const Preparacionparabebes = [
     category: {
       name: 'Preparación para bebés',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1588012413/lo31a5eyunq4tmvvnevb.jpg",
   },
   {
@@ -1560,7 +1560,7 @@ export const Preparacionparabebes = [
     category: {
       name: 'Preparación para bebés',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1586549188/abn9scc6hp7zgw1yvwlx.jpg",
   },
   {
@@ -1570,7 +1570,7 @@ export const Preparacionparabebes = [
     category: {
       name: 'Preparación para bebés',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448695/oiz37oxscvya4drx1qi5.jpg",
   },
   {
@@ -1580,7 +1580,7 @@ export const Preparacionparabebes = [
     category: {
       name: 'Preparación para bebés',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448734/nnbp4eyekiguqplcer5c.jpg",
   },
   {
@@ -1590,7 +1590,7 @@ export const Preparacionparabebes = [
     category: {
       name: 'Preparación para bebés',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1481308604/wna3ndhmgwhwtud3xx5n.jpg",
   },
   {
@@ -1600,7 +1600,7 @@ export const Preparacionparabebes = [
     category: {
       name: 'Preparación para bebés',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1576025514/t4a9f8gmukbwhevmmpch.jpg",
   },
   {
@@ -1610,7 +1610,7 @@ export const Preparacionparabebes = [
     category: {
       name: 'Preparación para bebés',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1452811668/bewwpxnaevr3y3by4yuh.jpg",
   },
   {
@@ -1620,7 +1620,7 @@ export const Preparacionparabebes = [
     category: {
       name: 'Preparación para bebés',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428351121/nkbccweuy19ljhmuonai.jpg",
   },
   {
@@ -1630,7 +1630,7 @@ export const Preparacionparabebes = [
     category: {
       name: 'Preparación para bebés',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428350674/q5cdsh1hxlzbpbedxbj0.jpg",
   },
 ]
@@ -1643,7 +1643,7 @@ export const Tareasvirtualesyenlinea = [
     category: {
       name: 'Tareas virtuales y en línea',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1586197361/k38g4xbvg6xz2zg7uvgw.jpg",
   },
   {
@@ -1653,7 +1653,7 @@ export const Tareasvirtualesyenlinea = [
     category: {
       name: 'Tareas virtuales y en línea',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1610410647/s56u2qyrxy5pfpujc7w0.jpg",
   },
   {
@@ -1663,7 +1663,7 @@ export const Tareasvirtualesyenlinea = [
     category: {
       name: 'Tareas virtuales y en línea',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1563302880/loizsvfztijpx2twvj17.jpg",
   },
   {
@@ -1673,7 +1673,7 @@ export const Tareasvirtualesyenlinea = [
     category: {
       name: 'Tareas virtuales y en línea',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1429631220/ygcm0bvo8hkl5exavjxx.jpg",
   },
 ]
@@ -1686,7 +1686,7 @@ export const Serviciosoficina = [
     category: {
       name: 'Servicios de oficina',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1563302408/jymtc8sdx1uufzclznhq.jpg",
   },
   {
@@ -1696,7 +1696,7 @@ export const Serviciosoficina = [
     category: {
       name: 'Servicios de oficina',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1563302004/bewqumtxfpkn89dz9dgq.jpg",
   },
   {
@@ -1706,7 +1706,7 @@ export const Serviciosoficina = [
     category: {
       name: 'Servicios de oficina',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1563302708/cddmdjmy2kv2j199nhkd.jpg",
   },
   {
@@ -1716,7 +1716,7 @@ export const Serviciosoficina = [
     category: {
       name: 'Servicios de oficina',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1563303454/mbgbhf43zxabhvmscir5.jpg",
   },
   {
@@ -1726,7 +1726,7 @@ export const Serviciosoficina = [
     category: {
       name: 'Servicios de oficina',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1563300741/lthmulj1cbg9oq2hfymr.jpg",
   },
   {
@@ -1736,7 +1736,7 @@ export const Serviciosoficina = [
     category: {
       name: 'Servicios de oficina',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1563302282/w2blgpywtwpped6jzmcn.jpg",
   },
   {
@@ -1746,7 +1746,7 @@ export const Serviciosoficina = [
     category: {
       name: 'Servicios de oficina',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1429630995/jzzidqjvfe3i1ntorsg7.jpg",
   },
   {
@@ -1756,7 +1756,7 @@ export const Serviciosoficina = [
     category: {
       name: 'Servicios de oficina',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1589504907/da2poyrgooro2jdbojeg.jpg",
   },
   {
@@ -1766,7 +1766,7 @@ export const Serviciosoficina = [
     category: {
       name: 'Servicios de oficina',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1650386921/bv1adylph9ihvqjhzmlk.jpg",
   },
   {
@@ -1776,7 +1776,7 @@ export const Serviciosoficina = [
     category: {
       name: 'Servicios de oficina',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1651086046/jx5o4txptvfq8wv3rfwa.jpg",
   },
 ]
@@ -1789,7 +1789,7 @@ export const Tareassincontacto = [
     category: {
       name: 'Tareas sin contacto',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1430424230/b2lfkt68avu0zm2i5nkf.jpg",
   },
   {
@@ -1799,7 +1799,7 @@ export const Tareassincontacto = [
     category: {
       name: 'Tareas sin contacto',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1584739044/m9sfcvdujablyd8esdpi.jpg",
   },
   {
@@ -1809,7 +1809,7 @@ export const Tareassincontacto = [
     category: {
       name: 'Tareas sin contacto',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448438/nwojcn8hxzfudorh19wa.jpg",
   },
   {
@@ -1819,7 +1819,7 @@ export const Tareassincontacto = [
     category: {
       name: 'Tareas sin contacto',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448751/jdz3qnucbtavshrwoyzh.jpg",
   },
   {
@@ -1829,7 +1829,7 @@ export const Tareassincontacto = [
     category: {
       name: 'Tareas sin contacto',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1588967277/dmzs7igh2suvoz4p3nbf.jpg",
   },
   {
@@ -1839,7 +1839,7 @@ export const Tareassincontacto = [
     category: {
       name: 'Tareas sin contacto',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1554490040/bp2azf4g3hcdeb6hkxac.jpg",
   },
   {
@@ -1849,7 +1849,7 @@ export const Tareassincontacto = [
     category: {
       name: 'Tareas sin contacto',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1428448794/gweisgd5bxoafin5euse.jpg",
   },
   {
@@ -1859,7 +1859,7 @@ export const Tareassincontacto = [
     category: {
       name: 'Tareas sin contacto',
     },
-    price: 69.99,
+    price: 9.99,
     image: "https://res.cloudinary.com/taskrabbit-com/image/upload/q_auto,f_auto/c_fill,h_480,w_640/v1586197361/k38g4xbvg6xz2zg7uvgw.jpg",
   },
 ]

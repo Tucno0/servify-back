@@ -103,6 +103,7 @@ export class PaymentService {
           client_id: this.orderTemp!.client_id,
           service_id: this.orderTemp!.service_id,
           address: this.orderTemp!.address,
+          location: this.orderTemp!.location,
           city: this.orderTemp!.city,
           zip_code: this.orderTemp!.zip_code,
           start_date: this.orderTemp!.start_date,

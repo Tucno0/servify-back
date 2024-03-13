@@ -21,7 +21,7 @@ export class OrdersService {
         }
       });
 
-      console.log(orders);
+      // console.log(orders);
   
       return orders.map( order => OrderEntity.fromObject(order));
     }

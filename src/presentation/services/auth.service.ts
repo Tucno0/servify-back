@@ -51,8 +51,6 @@ export class AuthService {
     try {
       // Encryptar la contraseña del usuario con bcrypt
       const passwordEncripted = bcryptAdapter.hash(registerUserDto.password);
-
-      console.log(registerUserDto);
       
       // Se crea un nuevo usuario en la base de datos de postgres
       const user = await prisma.user.create({
@@ -64,8 +62,6 @@ export class AuthService {
           role: registerUserDto.role === 'provider' ? role.provider : role.client,
         },
       });
-
-      console.log(user);
       
       // Generar JWT para mantener la autenticación del usuario
       const token = await JwtAdapter.generateToken({ id: user.id });

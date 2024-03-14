@@ -19,6 +19,9 @@ export class OrderRoutes {
       //* /api/orders/client/:id
       router.get('/client/:id', controller.getOrdersByClientId);
 
+      //* /api/orders/provider/:id
+      router.get('/provider/:id', controller.getOrdersByProviderId);
+
       //* /api/orders
       router.post('/', controller.createOrder);
 

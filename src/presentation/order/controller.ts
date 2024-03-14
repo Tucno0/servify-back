@@ -35,6 +35,16 @@ export class OrderController {
     }
   }
 
+  public getOrdersByProviderId = async (req: Request, res: Response) => {
+    try {
+      const { id } = req.params;
+      const orders = await this.ordersService.getOrdersByProviderId(id);
+      res.status(200).json(orders);
+    } catch (error) {
+      handleError(error, res);
+    }
+  }
+
   public createOrder = async (req: Request, res: Response) => {
     try {
       const order = req.body;

@@ -94,21 +94,44 @@ export class OrdersService {
     return orders.map( order => OrderEntity.fromObject(order));
   }
 
-  // public getOrdersByProviderId = async (providerId: string) => {
-  //   if (!UuidAdapter.validate(providerId)) throw CustomError.badRequest('Invalid id');
+  public getOrdersByProviderId = async (providerId: string) => {
+    if (!UuidAdapter.validate(providerId)) throw CustomError.badRequest('Invalid id');
 
-  //   const orders = await prisma.order.findMany({
-  //     where: { provider_id: providerId},
-  //     include: {
-  //       client: true,
-  //       service: true
-  //     },
-  //   });
+    const data = await prisma.service_provider.findMany({
+      where: { provider_id: providerId},
+      include: {
+        service: {
+          include:{
+            orders: {
+              include: {
+                client: {
+                  include: {
+                    user: true
+                  }
+                },
+                service: {
+                  include: {
+                    category: true,
+                    service_images: true
+                  }
+                }
+              },
+            }
+          }
+        }
+      },
+    });
 
-  //   if (!orders) throw CustomError.notFound('Orders not found');
+    // console.log(orders);
 
-  //   return orders.map( order => OrderEntity.fromObject(order));
-  // }
+    if (!data) throw CustomError.notFound('Order data not found');
+
+    return data.map( item => {
+      if ( item != null && item.service != null && item.service.orders != null) {
+        return item.service.orders.map( order => OrderEntity.fromObject(order));
+      }
+    }).flat();
+  }
 
   public createOrder = async (order: any) => {
     return {

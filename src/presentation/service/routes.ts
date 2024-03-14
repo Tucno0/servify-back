@@ -15,6 +15,9 @@ export class ServiceRoutes {
   
       //* /api/service/:id
       router.get('/:id', controller.getServiceById);
+
+      //* /api/service/provider/:providerId
+      router.get('/provider/:providerId', controller.getServicesByProviderId);
   
       //* /api/service
       // router.post('/', controller.createService);

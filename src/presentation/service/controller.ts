@@ -20,6 +20,14 @@ export class ServiceController {
       .catch( error => handleError(error, res));
   }
 
+  public getServicesByProviderId = async (req: Request, res: Response) => {
+    const { providerId } = req.params;
+
+    return this.serviceService.getServicesByProviderId(providerId)
+      .then( services => res.json(services))
+      .catch( error => handleError(error, res));
+  }
+
   public createService = (req: Request, res: Response) => {
     // const [error, serviceDto] = CreateServiceDto.create(req.body);
 

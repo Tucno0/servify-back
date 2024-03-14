@@ -35,6 +35,26 @@ export class ServiceService {
     return ServiceEntity.fromObject(service);
   }
 
+  public getServicesByProviderId = async (providerId: string) => {
+    // Se valida que el id sea un uuid
+    if (!UuidAdapter.validate(providerId)) throw CustomError.badRequest('Invalid provider id');
+    // Se buscan los servicios por id de proveedor en la base de datos
+    const serviceProviders = await prisma.service_provider.findMany({
+      where: { provider_id: providerId },
+      include: {
+        service: {
+          include: {
+            category: true,
+            service_images: true
+          }
+        }
+      }
+    });
+    // console.log(serviceProviders);
+    // Se retorna un arreglo de servicios encontrados
+    return serviceProviders.map( item => ServiceEntity.fromObject(item.service!));
+  }
+
   public createService = async (service: any) => {
     return {};
   }

@@ -10,22 +10,25 @@ export class ProviderRoutes {
       const providerService = new ProvidersService();
       const controller = new ProviderController(providerService);
   
-      //* /api/provider
+      //* /api/providers
       router.get('/', controller.getAllProviders);
   
-      //* /api/provider/:id
+      //* /api/providers/:id
       router.get('/:id', controller.getProviderById);
 
-      //* /api/provider/service/:serviceId
+      //* /api/providers/service/:serviceId
       router.get('/service/:serviceId', controller.getProvidersByServiceId);
+
+      //* /api/providers/user/:userId
+      router.get('/user/:userId', controller.getProviderByUserId);
   
-      //* /api/provider
+      //* /api/providers
       router.post('/', controller.createProvider);
   
-      //* /api/provider/:id
+      //* /api/providers/:id
       router.put('/:id', controller.updateProvider);
   
-      //* /api/provider/:id
+      //* /api/providers/:id
       router.delete('/:id', controller.deleteProvider);
   
       return router;

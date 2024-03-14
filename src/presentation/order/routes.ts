@@ -10,19 +10,22 @@ export class OrderRoutes {
       const ordersService = new OrdersService();
       const controller = new OrderController(ordersService);
 
-      //* /api/order
+      //* /api/orders
       router.get('/', controller.getAllOrders);
 
-      //* /api/order/:id
+      //* /api/orders/:id
       router.get('/:id', controller.getOrderById);
 
-      //* /api/order
+      //* /api/orders/client/:id
+      router.get('/client/:id', controller.getOrdersByClientId);
+
+      //* /api/orders
       router.post('/', controller.createOrder);
 
-      //* /api/order/:id
+      //* /api/orders/:id
       router.put('/:id', controller.updateOrder);
 
-      //* /api/order/:id
+      //* /api/orders/:id
       router.delete('/:id', controller.deleteOrder);
 
       return router;

@@ -27,6 +27,14 @@ export class ProviderController {
       .catch( error => handleError(error, res));
   }
 
+  public getProviderByUserId = async (req: Request, res: Response) => {
+    const { userId } = req.params;
+
+    return this.providerService.getProviderByUserId(userId)
+      .then( provider => res.json(provider))
+      .catch( error => handleError(error, res));
+  }
+
   public createProvider = (req: Request, res: Response) => {
     // const [error, providerDto] = CreateProviderDto.create(req.body);
 

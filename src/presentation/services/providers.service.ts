@@ -57,6 +57,23 @@ export class ProvidersService {
         };
       });
     }
+
+    public getProviderByUserId = async (userId: string) => {
+      const provider = await prisma.provider.findFirst({
+        where: {
+          user_id: userId
+        },
+        include: {
+          user: true
+        }
+      });
+
+      // console.log(provider);
+      if (!provider) throw CustomError.notFound('Provider not found');
+
+      const { user: { password, ...userEntity}, ...providerEntity} = ProviderEntity.fromObject(provider);
+      return { ...providerEntity, user: userEntity};
+    }
   
     public createProvider = async (provider: any) => {
       return {
